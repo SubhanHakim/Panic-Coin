@@ -17,10 +17,9 @@ function Token() {
         </div>
         <div className="w-full min-h-screen bg-black flex items-center justify-center">
           <motion.div
-            // gerakan naik–turun terus
             animate={{ y: [0, -40, 0, 40, 0] }}
             transition={{
-              duration: 10,        // makin besar = makin pelan
+              duration: 10,       
               repeat: Infinity,
               ease: "easeInOut",
             }}

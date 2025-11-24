@@ -5,7 +5,7 @@ function AboutSection() {
     const prefersReduced = useReducedMotion()
 
     return (
-        <div className='m-28 px-[100px] h-screen'>
+        <div className='lg:m-28 px-4 sm:px-6 lg:px-[100px] py-12'>
             <div className='flex flex-col items-center'>
                 <div className='text-5xl text-center lg:text-6xl font-extrabold'>
                     What is $PANIC?
@@ -40,8 +40,20 @@ function AboutSection() {
                         </motion.div>
                     </div>
 
-                    <div className="max-w-2xl text-lg leading-relaxed">
-                        $PANIC is a global meme coin born from the chaos of the AI era — where systems fail, emotions overload, and humanity collectively freaks out. Instead of running away from panic, we turn it into power.
+                    <div className="flex flex-col gap-4">
+                        <h2 className='max-w-2xl text-lg leading-relaxed'>
+                            $PANIC is a global meme coin born from the chaos of the AI era — where systems fail, emotions overload, and humanity collectively freaks out. Instead of running away from panic, we turn it into power.
+                            $PANIC is not just a coin — it’s a movement.
+                            We transform collective panic into collective strength, using culture, memes, and community to turn fear into fuel.
+                        </h2>
+                        <div className="mt-4 max-w-2xl text-base sm:text-lg leading-relaxed">
+                            <h3 className="text-xl sm:text-2xl font-bold mb-3">The PANIC Movement</h3>
+                            <ul className="list-disc list-inside space-y-3 text-base sm:text-lg text-slate-200 marker:text-cyan-400">
+                                <li>Transforming panic into power — embracing uncertainty and turning it into energy, creativity, and momentum.</li>
+                                <li>Building a real community of creators, traders, meme lords, and AI enthusiasts who live and breathe internet culture.</li>
+                                <li>Proving that community is stronger than fake roadmaps and empty promises — no insiders, no empty hype, just people who choose to panic together.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
