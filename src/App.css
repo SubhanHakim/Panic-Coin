@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-primary: 'Roboto', sans-serif;
+}
+
+body {
+  @apply bg-black;
+  @apply text-white;
+}

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: panic --default, dark;
+}
+
+@theme {
+  --font-primary: 'Roboto', sans-serif;
+}
+
+@plugin "daisyui/theme" {
+  name: "panic";
+  default: true;
+  color-scheme: dark;
+
+  --color-base-100: #000000;
+  --color-base-200: #020617;
+  --color-base-300: #020617;
+  --color-base-content: #f9fafb;
+}
