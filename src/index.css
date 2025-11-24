@@ -4,6 +4,10 @@
   themes: panic --default, dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-primary: 'Roboto', sans-serif;
 }

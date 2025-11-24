@@ -5,6 +5,10 @@
   --font-primary: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-black;
   @apply text-white;
